@@ -1,0 +1,9 @@
+:root{
+    --blue: #458FF6;
+    --black-primary: #000000;
+    --black-secondary: #233348;
+    --gray: #7D7987;
+    --white: #FFFFFF;
+    --linear-bg-main: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    --linear-bg-footer: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}

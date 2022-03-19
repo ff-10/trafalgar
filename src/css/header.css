@@ -1,0 +1,116 @@
+.container{
+    padding: 0 80px;
+}
+
+header{
+    font-family: "Mulish", sans-serif;
+    margin-top: 56px;
+    margin-bottom: 191px;
+}
+
+.description{
+    color: var(--gray);
+}
+
+.heading{
+    font-weight: 700;
+    color: var(--black);
+}
+
+/* Header */
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.header-links ul{
+    display: flex;
+}
+
+.header-links li{
+    padding-right: 42.98px;
+}
+
+.header-links li:last-child{
+    padding-right: 0;
+}
+
+.header-links a{
+    color: var(--gray);
+    text-decoration: none;
+    transition: all .7s;
+}
+
+.header-links a:hover{
+    color: red;
+    text-decoration: underline;
+
+}
+
+.active{
+    font-weight: bold;
+    color: var(--black) !important;
+}
+
+
+/* virtual healthcare */
+
+
+.virtual-healthcare-area{
+    display: flex;
+    align-items: center;
+}
+
+
+.virtual-healthcare-area .heading{
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 25px;
+}
+
+.virtual-healthcare-area .description{
+    font-weight: 300;
+    font-size: 21px;
+    margin-bottom: 45px;
+    line-height: 32px;
+}
+
+.virtual-healthcare-area button{
+    width: 214px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 18px;
+    background: var(--blue);
+    border-radius: 55px;
+}
+
+.image-container{
+    display: flex;
+    justify-content: flex-end;
+}
+/* 
+.image-container img{
+    
+} */
+
+
+
+
+/* Flex settings. */
+.flex-4{flex: 4;}
+.flex-8{flex: 8;}
+
+/* For buttons */
+.btn{transition: all .4s;}
+.btn:hover{opacity: 0.8;}
+.btn:active{transform: scale(0.9);}
+
+
+/* End of header.css */

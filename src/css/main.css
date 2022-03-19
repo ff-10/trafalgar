@@ -1,0 +1,360 @@
+/* General */
+
+.line {
+    width: 56px;
+    height: 2px;
+    background: #000000;
+    border-radius: 5px;
+    margin-top: 26px;
+    margin-bottom: 33px;
+}
+
+
+.btn-outline {
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.4px solid var(--blue);
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--blue);
+    background-color: transparent;
+    transition: all .3s;
+    margin-top: 69px;
+}
+
+.btn-outline:hover {
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+
+main {
+    font-family: "Mulish", sans-serif;
+}
+
+/* Our-services-area */
+
+.our-services-area {
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 220px;
+}
+
+.our-services-area .header-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.our-services-area .header-area .heading {
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.our-services-area .header-area .description {
+    padding: 0 83px;
+}
+
+
+
+/* Card-area */
+
+.our-services-area .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("../images/dotted-sqaure.svg");
+    background-repeat: no-repeat;
+    background-position: right center;
+
+}
+
+.our-services-area .card {
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-services-area .card-body {
+    width: 350px;
+    height: 354px;
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    margin: 35px;
+    transition: all .4s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.our-services-area .card-image {
+    padding-top: 54px;
+    padding-left: 37px;
+    padding-bottom: 22px;
+}
+
+.our-services-area .heading {
+    padding-left: 39px;
+    font-size: 24px;
+    line-height: 56px;
+}
+
+.our-services-area .description {
+    font-weight: 300;
+    font-size: 16px;
+    padding-left: 39px;
+    padding-right: 50px;
+    line-height: 28px;
+}
+
+.our-services-area .card-body:hover {
+    background-color: aliceblue;
+    border-bottom: 2px solid burlywood;
+    transform: translate(-10px, -10px);
+}
+
+.our-services-area .card-body:active {
+    transform: scale(0.9);
+}
+
+/* End of our-services-area */
+
+
+
+/* leading-healthcare-area */
+
+.leading-area {
+    display: flex;
+    align-items: center;
+    background-image: url("../images/dotted-sqaure.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-bottom: 50px;
+}
+
+.leading-area .heading {
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.leading-area .description {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 37px;
+}
+
+
+
+/* Apps-area */
+
+.apps-area {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    margin-bottom: 207px;
+}
+
+.apps-area .heading {
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.apps-area .flex-4 {
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+
+.apps-area .btn .text {
+    margin-right: 14px;
+}
+
+.apps-area .btn:hover {
+    background-color: transparent;
+    color: var(--blue);
+}
+
+.apps-area .description {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.apps-area .flex-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* customer-area */
+
+
+.customer-area {
+    padding: 0 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.customer-container {
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+}
+
+.customer-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+}
+
+.customer-heading .heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: var(--white);
+}
+
+.customer-heading .line {
+    background-color: var(--white);
+}
+
+
+
+.customer-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 79px;
+}
+
+.customer-info .name-and-rank {
+    margin-left: 29px;
+}
+
+.name-and-rank .name {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 48px;
+    color: var(--white);
+}
+
+.name-and-rank .rank {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.customer-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 5;
+}
+
+
+
+.customer-info .description {
+    flex: 5;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* Article-area */
+
+.article-area{
+    margin-bottom: 202px;
+}
+
+.article-area .container {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+
+.article-area .card {
+    width: 350px;
+    height: 512px;
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+}
+
+.article-area .card .image img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.article-area .card .image {
+    margin-bottom: 21px;
+}
+
+.article-area .card .heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    margin-bottom: 12px;
+}
+
+.article-area .card .heading,
+.article-area .card .description{
+    padding: 0 32px;
+}
+
+.article-area .card .description {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.article-area .card .read-more{
+    padding-left: 33px;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.article-area .card .read-more:hover{
+    opacity: .7;
+}
+
+.article-area .card .read-more:active{
+    transform: translateX(15px);
+}
+
+.article-area .card .read-more .text{
+    color: var(--blue);
+    margin-right: 8px;
+}
+
+.article-area .view-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-area .card{
+    margin: 10px;
+}
+
+/* end of main.css */

@@ -1,0 +1,68 @@
+footer {
+    background: url("../images/dotted-sqaure.svg"), linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    padding: 30px 0;
+    font-family: "Mulish", sans-serif;
+}
+
+
+
+.footer {
+    display: flex;
+    align-items: center;
+}
+
+.footer .about {
+    flex: 3;
+}
+
+.footer-links {
+    flex: 7;
+}
+
+.footer-logo {
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--white);
+    margin-bottom: 39px;
+}
+
+.copyright-text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--white);
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+    color: var(--white);
+}
+
+.link-container .head-text{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.link-container li{
+    line-height: 38px;
+}
+
+.link-container a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.link-container a:hover{
+    text-decoration: underline;
+}
+
+/* End of footer.css */
