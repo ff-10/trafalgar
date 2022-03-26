@@ -6,4 +6,4 @@ Live: https://ff-10.github.io/trafalgar/
 
 ___
 
-+Added responsibility.
++Added responsibility, working in small devices.
