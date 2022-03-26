@@ -3,3 +3,7 @@
 ____
 
 Live: https://ff-10.github.io/trafalgar/
+
+___
+
++Added responsibility.

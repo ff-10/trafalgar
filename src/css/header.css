@@ -95,12 +95,9 @@ header{
     display: flex;
     justify-content: flex-end;
 }
-/* 
-.image-container img{
-    
-} */
-
-
+.menu-btn{
+    display: none;
+}
 
 
 /* Flex settings. */
